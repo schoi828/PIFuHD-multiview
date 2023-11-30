@@ -1,6 +1,6 @@
 # Multi-view PIFuHD Using the Single-view Pretrained Model
 
-[PIFuHD](https://shunsukesaito.github.io/PIFuHD/) only provides a pretrained model for single-view (frontal) image 3D reconstruction. This repository extends its functionality to support 3D reconstruction from multi-view (frontal/backside) images, employing the same pretrained single-view model. "Zeroshot" multi-view 3D reconstruction is achievable by modifying the image processing pipelines and applying channel-wise Adaptive Instance Normalization (AdaIN). This multi-view approach enhances the detail on the backside of the 3D mesh.
+[PIFuHD](https://shunsukesaito.github.io/PIFuHD/) currently offers a pretrained model designed for single-view (frontal) image 3D reconstruction. This repository extends PIFuHD's capabilities, enabling 3D reconstruction from multi-view (frontal and backside) images using the existing single-view pretrained model. Achieving this 'zeroshot' multi-view 3D reconstruction is made possible by altering the image processing pipelines and implementing channel-wise Adaptive Instance Normalization (AdaIN). This modification notably improves the detailing on the backside of the 3D mesh."
 
 <p align="center">
   <img src="diagram.png" width="500" height="500">
